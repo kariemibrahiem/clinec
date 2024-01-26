@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/clinec/static/css/main.a1abb32a.css",
+    "main.js": "/clinec/static/js/main.964cf0d1.js",
+    "static/media/doctor.png": "/clinec/static/media/doctor.7c2bc96d67d3eba1d64a.png",
+    "static/media/search (1).png": "/clinec/static/media/search (1).3a608aca6f4d314714c4.png",
+    "static/media/not-found.png": "/clinec/static/media/not-found.21eec0543db95dc38483.png",
+    "static/media/telephone-call.png": "/clinec/static/media/telephone-call.2fa539562c029c1d51b6.png",
+    "index.html": "/clinec/index.html",
+    "main.a1abb32a.css.map": "/clinec/static/css/main.a1abb32a.css.map",
+    "main.964cf0d1.js.map": "/clinec/static/js/main.964cf0d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1abb32a.css",
+    "static/js/main.964cf0d1.js"
+  ]
+}
