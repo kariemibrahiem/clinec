@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-transform: capitalize;
+}
+img{
+    width: 150px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    text-decoration: none !important;
+    color: var(--main-color) !important;
+    font-size: 20px;
+    padding: 0px;
+}
+
+.flex{
+    display: flex !important;
+    flex-direction: row !important;
+}
+.non_flex{
+    display: flex;
+    flex-direction: column;
+}
+.foot_con{
+    margin-top: 100px !important;
+    padding: 200px 0px 0px 5% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    position: relative !important;
+    height: 130vh;
+}
+.foot_con div{
+    height: 50vh ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgss{
+    position: absolute;
+}
+.i1{
+    position: absolute;
+    bottom: 10%;
+    left: 47%;
+    animation-name: icon;
+    animation-iteration-count: infinite;
+    animation-duration: 15s;
+    z-index: -2;
+    top: 0px;
+    opacity: .5;
+}
+.i2{
+    position: absolute;
+    bottom: 10%;
+    left: 77%;
+    animation-name: icon;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+    z-index: -2;
+    top: 0px;
+    opacity: .5;
+}
+.i3{
+    position: absolute;
+    bottom: 10%;
+    left: 7%;
+    animation-name: icon;
+    animation-iteration-count: infinite;
+    animation-duration: 25s;
+    z-index: -2;
+    top: 0px;
+    opacity: .5;
+}
+@keyframes icon{
+    0%{
+        top: 0px;
+    }
+    50%{
+        top: 110%;
+    }
+    100%{
+        top: 0px;
+    }
+}
+.connect{
+    width: 10%;
+    display: flex;
+    flex-direction: row !important;
+    align-items: start !important;
+    float: left;
+}
+.connected_img{
+    width: 20px;
+    margin: 10px;
+    transition: .5s;
+}
+.connected_img:hover{
+    scale: 1.2;
+    cursor: pointer;
+}
+
+.foot_connect{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    position: absolute;
+    top: 250vh;
+    display: flex !important;
+    flex-direction: row !important;
+    padding: 40px;
+}
+hr{
+    color: aliceblue;
+}

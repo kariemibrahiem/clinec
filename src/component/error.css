@@ -1,0 +1,11 @@
+.error_con{
+    width: 100%;
+    height: 97vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    overflow: hidden;
+}

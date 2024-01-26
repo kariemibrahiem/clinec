@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background: linear-gradient(  rgb(145, 249, 253) , white);
+    overflow-x: hidden;
+    height: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+    --main-color: #f17a37;
+    --orange-color: #5559ce;
+}
+a{
+    text-decoration: none;
+    color: var(--main-color);
+}
+

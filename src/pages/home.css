@@ -1,0 +1,131 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    height: 100%;
+    padding-bottom: 100px;
+}
+.home{
+    height: 100vh;
+    padding-bottom: 100px;
+}
+header{
+    background-color: transparent;
+    height: 100%;
+}
+.row h6{
+    color:#262ba3 !important;
+    font-weight: 700;
+}
+.row h2{
+    color: #272a73 !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.doc{
+    width: 100%;
+    width: 430px;
+    animation-name: doc;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+}
+.div_con{
+    padding: 20px 4px;
+}
+.btn{
+    background-color: #f17a37 !important;
+    color: #262ba3 !important;
+    font-weight: 500 !important;
+    margin-top: 20px;
+    width: 200px;
+    text-transform: capitalize;
+}
+.btn:hover{
+    background-color: #dd5d13 !important;
+    color: #fff !important;
+    opacity: .9;
+}
+.text_con{
+    padding: 50px 200px;
+}
+@keyframes doc{
+    0%{
+        margin-top: 0px;
+    }
+    50%{
+        margin-top: 50px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+.ic1{
+    position: absolute;
+    top: 20%;
+    z-index: -1;
+    animation-name: ic;
+    left: 50%;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+.ic2{
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+    left: 0%;
+    animation-name: ic;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.ic3{
+    position: absolute;
+    top: 70%;
+    z-index: -1;
+    left: 40%;
+}
+@keyframes ic{
+    0%{
+        margin-top: 0px;
+    }
+    50%{
+        margin-top: 50px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}

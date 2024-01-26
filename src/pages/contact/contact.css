@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding: 10px;
+}
+.contact_sec{
+    background: linear-gradient(  rgba(2, 161, 241, 0.664 ) ,  transparent 50%);
+    width: 100%;
+    height: 90vh;
+    border-radius: 20px;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 10px !important;
+    padding: 20px;
+}
+.contact_logo{
+    font-size: 40px;
+    color: var(--main-color);
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.links{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    gap: 4px;
+}
+input{
+    margin: 10px !important;
+}
+.btn{
+    width: 100%;
+}
+.sec{
+    background-color: rgba(64, 64, 186, 0.3);
+    border-radius: 20px;
+    margin-top: 40px !important;
+}
+.icon{
+    height: 30px;
+}
+.location{
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center;
+    gap: 10px;
+}
